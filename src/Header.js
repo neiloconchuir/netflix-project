@@ -1,17 +1,13 @@
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-/* import {
-  solid,
-  regular,
-  brands,
-  icon,
-} from "@fortawesome/fontawesome-svg-core/import.macro"; */
-// import { faMagnifyingGlass, faBell } from "@fortawesome/free-solid-svg-icons";
+import React from 'react';
 import "./header.css";
+import Search from "./Search";
 
 export default function Header() {
+
+
   return (
     <section className="Header">
-      <navbar>
+      <nav>
         <ul>
           <li>Logo image</li>
           <li>Home</li>
@@ -21,15 +17,16 @@ export default function Header() {
           <li>My List</li>
           <li>Browse by Language</li>
         </ul>
-      </navbar>
+      </nav>
       <div className="Header-icons">
+        <Search />
         <ul>
           <li>
-            <FontAwesomeIcon icon="faMagnifyingGlass fa-solid " />
+            FontAwesomeIcon
           </li>
           <li>Kids</li>
           <li>
-            <FontAwesomeIcon icon="faBell fa-solid" />
+            FontAwesomeIcon 
           </li>
         </ul>
       </div>
