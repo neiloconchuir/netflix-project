@@ -1,9 +1,9 @@
-import React, { useState} from "react";
+import React from "react";
 import axios from "axios";
 
 export default function Search() {
     function handleResponse(response) {
-      console.log(response.data.results);
+    //  console.log(response.data.results);
     }
 
     const apiKey = "682beed266315e592dc46b1df437b7d0";
@@ -12,7 +12,7 @@ export default function Search() {
 
     axios.get(apiUrl).then(handleResponse);
 
-    https: return (
+   return (
       <div className="Search">
         <form className="Search-form">
           <input type="search" placeholder="Search..."></input>
