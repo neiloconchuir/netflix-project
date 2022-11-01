@@ -16,7 +16,7 @@ function Banner() {
     fetchData();
   }, []);
 
-  console.log(movie);
+
 
   // function to limit displayed copy on page when called
   function truncate(str, n) {
