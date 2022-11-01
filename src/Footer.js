@@ -1,16 +1,10 @@
-import React from 'react';
-import './footer.css';
+import React from 'react'
 
 function Footer() {
   return (
     <footer className="footer">
       <p>
-        Netflix project build by Neil O'Conchuir, and{" "}
-        <a href="https://github.com/neiloconchuir/netflix-project"
-        target="_blank"
-        rel="noreferrer">
-          open-source on GitHub
-        </a>
+        Netflix project build by Neil O'Conchuir, and <a  >open-source on GitHub</a>
       </p>
     </footer>
   );
